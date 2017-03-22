@@ -16,3 +16,12 @@ C:\Users\Gail\Desktop\Test Assess2\OS-Assessment2-master\ConverterApp\ConverterA
 C:\Users\Gail\Desktop\Test Assess2\OS-Assessment2-master\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
 C:\Users\Gail\Desktop\Test Assess2\OS-Assessment2-master\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
 C:\Users\Gail\Desktop\Test Assess2\OS-Assessment2-master\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
+E:\tafe 2017\OS\Assessment 2\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe.config
+E:\tafe 2017\OS\Assessment 2\ConverterApp\ConverterApp\obj\Debug\ConverterApp.exe
+E:\tafe 2017\OS\Assessment 2\ConverterApp\ConverterApp\obj\Debug\ConverterApp.pdb
+E:\tafe 2017\OS\Assessment 2\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe
+E:\tafe 2017\OS\Assessment 2\ConverterApp\ConverterApp\bin\Debug\ConverterApp.pdb
+E:\tafe 2017\OS\Assessment 2\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csprojResolveAssemblyReference.cache
+E:\tafe 2017\OS\Assessment 2\ConverterApp\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
+E:\tafe 2017\OS\Assessment 2\ConverterApp\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
+E:\tafe 2017\OS\Assessment 2\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
