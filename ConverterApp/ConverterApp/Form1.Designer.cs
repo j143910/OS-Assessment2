@@ -40,6 +40,8 @@
             this.btn_Celsius_to_Fahrenheit = new System.Windows.Forms.Button();
             this.btn_CM_to_Feet = new System.Windows.Forms.Button();
             this.btn_KM_to_Miles = new System.Windows.Forms.Button();
+            this.btn_Show_Last_Five_Conversions = new System.Windows.Forms.Button();
+            this.Conversions_ListBox = new System.Windows.Forms.ListBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,7 +87,7 @@
             // 
             // btn_Exit
             // 
-            this.btn_Exit.Location = new System.Drawing.Point(206, 277);
+            this.btn_Exit.Location = new System.Drawing.Point(213, 376);
             this.btn_Exit.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(56, 19);
@@ -119,13 +121,14 @@
             this.txt_Convert.Name = "txt_Convert";
             this.txt_Convert.Size = new System.Drawing.Size(54, 20);
             this.txt_Convert.TabIndex = 7;
+            this.txt_Convert.Visible = false;
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.lbl_Display);
             this.flowLayoutPanel1.Controls.Add(this.txt_Convert);
             this.flowLayoutPanel1.Controls.Add(this.lbl_Convert);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 206);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 172);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(256, 56);
             this.flowLayoutPanel1.TabIndex = 8;
@@ -160,11 +163,32 @@
             this.btn_KM_to_Miles.UseVisualStyleBackColor = true;
             this.btn_KM_to_Miles.Click += new System.EventHandler(this.btn_KM_to_Miles_Click);
             // 
+            // btn_Show_Last_Five_Conversions
+            // 
+            this.btn_Show_Last_Five_Conversions.Enabled = false;
+            this.btn_Show_Last_Five_Conversions.Location = new System.Drawing.Point(51, 234);
+            this.btn_Show_Last_Five_Conversions.Name = "btn_Show_Last_Five_Conversions";
+            this.btn_Show_Last_Five_Conversions.Size = new System.Drawing.Size(151, 23);
+            this.btn_Show_Last_Five_Conversions.TabIndex = 13;
+            this.btn_Show_Last_Five_Conversions.Text = "Show last 5 conversions";
+            this.btn_Show_Last_Five_Conversions.UseVisualStyleBackColor = true;
+            this.btn_Show_Last_Five_Conversions.Click += new System.EventHandler(this.btn_Show_Last_Five_Conversions_Click);
+            // 
+            // Conversions_ListBox
+            // 
+            this.Conversions_ListBox.FormattingEnabled = true;
+            this.Conversions_ListBox.Location = new System.Drawing.Point(12, 263);
+            this.Conversions_ListBox.Name = "Conversions_ListBox";
+            this.Conversions_ListBox.Size = new System.Drawing.Size(257, 108);
+            this.Conversions_ListBox.TabIndex = 14;
+            // 
             // frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(280, 309);
+            this.ClientSize = new System.Drawing.Size(280, 401);
+            this.Controls.Add(this.Conversions_ListBox);
+            this.Controls.Add(this.btn_Show_Last_Five_Conversions);
             this.Controls.Add(this.btn_KM_to_Miles);
             this.Controls.Add(this.btn_CM_to_Feet);
             this.Controls.Add(this.btn_Celsius_to_Fahrenheit);
@@ -174,6 +198,7 @@
             this.Controls.Add(this.btn_CM_to_Inches);
             this.Controls.Add(this.txt_UnitOfMeasure);
             this.Controls.Add(this.lbl_UofM);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frm_Main";
             this.Text = "ATCA Gas Converter";
@@ -198,6 +223,8 @@
         private System.Windows.Forms.Button btn_Celsius_to_Fahrenheit;
         private System.Windows.Forms.Button btn_CM_to_Feet;
         private System.Windows.Forms.Button btn_KM_to_Miles;
+        private System.Windows.Forms.Button btn_Show_Last_Five_Conversions;
+        private System.Windows.Forms.ListBox Conversions_ListBox;
     }
 }
 
